@@ -8,7 +8,7 @@ Roll no: 079bct081
 ## ALU Operation Table
 
 | Opcode (`sel`) | Operation | 
-| :--- | :--- | :--- |
+| :--- | :--- |
 | **`3'b000`** | **ADD** | 
 | **`3'b001`** | **SUB** | 
 | **`3'b010`** | **2^n MUL** | 
