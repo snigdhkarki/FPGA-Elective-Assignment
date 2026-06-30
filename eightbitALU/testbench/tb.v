@@ -15,6 +15,10 @@ module tb_alu;
     );
 
     initial begin
+
+        $dumpfile("alu.vcd");
+        $dumpvars(0, tb_alu);
+        
         a = 8'd25;   b = 8'd10;   sel = 3'b000;
         #10;
         $display("ADD    : %d + %d = %d", a, b, result);
