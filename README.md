@@ -5,7 +5,7 @@ Roll no: 079bct081
 
 # Project Overview: 8-Bit ALU
 
-This project features the design and implementation of a hardware-efficient 8-bit Arithmetic Logic Unit (ALU) written in Verilog. The core module accepts two 8-bit data inputs (`a` and `b`) and a 3-bit operation selection bus (`sel`), producing a 16-bit `result` to comfortably accommodate higher-bit arithmetic outputs without overflow loss.
+This project features the design and implementation of a hardware-efficient 8-bit Arithmetic Logic Unit (ALU) written in Verilog. The core module accepts two 8-bit data inputs (a and b) and a 3-bit operation selection bus (sel), producing a 16-bit result to comfortably accommodate higher-bit arithmetic outputs without overflow loss.
 
 ## The ALU supports 8 operations
 
